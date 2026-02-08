@@ -22,3 +22,35 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Maven / build
+/target/
+/target/**
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# IntelliJ IDEA
+/.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*~
+*.tmp
+*.temp
+
+# Test reports
+/target/surefire-reports/
+
